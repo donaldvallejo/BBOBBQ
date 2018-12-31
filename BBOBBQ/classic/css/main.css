@@ -4,7 +4,7 @@ Version:        1
 use:    One Page Template
 
 [Table Of Contents]
-
+0. Custom Css
 1. Web Fonts
 2. Base Styles
 3. Shortcodes
@@ -23,7 +23,11 @@ use:    One Page Template
     12.1 Media Queries for tablet
     12.2 Media Queries for mobile
 
-/---------------------------------------------------------------------------
+/*---------------------------------------------------------------------------
+0. Custom Css
+----------------------------------------------------------------------------*/ 
+
+/*---------------------------------------------------------------------------
 1. Web Fonts
 ----------------------------------------------------------------------------*/
 @font-face {
@@ -2343,15 +2347,16 @@ form :-ms-input-placeholder {
       display: block;
 }
 .main-top .logo {
-    overflow: hidden;
-    padding: 15px 0px;
+    /* overflow: hidden; */
+    /* padding: 15px 0px; */
 }
 .main-top .logo a, .logo-footer a {
+  z-index: 999;
     text-indent: -9999px;
-    background: url('../img/logo.svg') no-repeat;
-    background-size: 165px 80px;
+    background: url('../../img/bbobbqlogo.png') no-repeat;
+    background-size: 165px 120px;
     width: 165px;
-    height: 80px;
+    height: 120px;
     -webkit-transition: height .5s ease;
     -moz-transition: height .5s ease;
     -o-transition: height .5s ease;
