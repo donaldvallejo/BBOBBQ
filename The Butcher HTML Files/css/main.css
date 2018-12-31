@@ -1,0 +1,190 @@
+/*---------------------------------------------------------------------------
+Project:        The Butcher One Page HTML
+Version:        1
+use:            Preview
+*/
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?6fo90g');
+	src:url('../fonts/icomoon.eot?#iefix6fo90g') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf?6fo90g') format('truetype'),
+		url('../fonts/icomoon.woff?6fo90g') format('woff'),
+		url('../fonts/icomoon.svg?6fo90g#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-about-us:before {
+	content: "\e612";
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+html, html a {
+    -font-size: 100%; 
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    font-family: 'Fjalla One', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#the-butcher-classic, #the-butcher-vintage {
+    padding: 0px;
+}
+#the-butcher-classic {
+    background: url('../img/the_butcher_steakhouse_template_classic.jpg') top center no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    height: 100%;
+}
+#the-butcher-vintage {
+    background: url('../img/the_butcher_steakhouse_template_vintage.jpg') top center no-repeat;
+    height: 100%;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+}
+
+#the-butcher-classic .content, #the-butcher-vintage .content{
+    background-color: rgba(0,0,0,0.7);
+    height: 100%;
+    -webkit-transition: all .70s ease;
+    -moz-transition: all .70s ease;
+    -ms-transition: all .70s ease;
+    -o-transition: all .70s ease;
+    transition: all .70s ease;
+}
+.content img {
+    margin-bottom: 30px;
+    opacity: 0.4;
+    -webkit-transition: all .70s ease;
+    -moz-transition: all .70s ease;
+    -ms-transition: all .70s ease;
+    -o-transition: all .70s ease;
+    transition: all .70s ease;
+    margin: 0 auto;
+    width: 25%;
+}
+.content:hover img {
+    opacity: 1;
+}
+img { 
+    display: block; 
+    border: 0; 
+    height: auto; 
+    width: 100%;
+}
+a, a:hover, a:focus, a:active, a:link {
+    text-decoration: none;
+    outline: none;
+    color: #b7ab9f;
+}
+.overlay {
+    display: table;
+    width: 100%;
+    height: 100%;  
+}
+.overlay-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+#the-butcher-classic h2{ font-family: 'Covered By Your Grace', cursive; }
+#the-butcher-classic h6 { font-family: 'Fjalla One', sans-serif; }
+#the-butcher-vintage h2{ font-family: 'Stint Ultra Condensed', cursive; text-transform: uppercase }
+#the-butcher-vintage h6 { font-family: 'Cantata One', sans-serif; }
+h2{ font-size: 52px; }
+h6{ font-size: 18px; }
+::-moz-selection {
+   background: #6d1a37;
+   color: #fff;
+   text-shadow: none;
+}
+::selection {
+   background: #6d1a37;
+   color: #fff;
+   text-shadow: none;
+}
+.button-style1 {
+    background: #b7ab9f;
+    padding: 15px 20px;
+    font-family: 'Rambla', sans serif;
+    font-size: 18px;
+    color: #000 !important;
+    text-transform: uppercase;
+    font-weight: bolder;
+    display: inline-block;
+    width: 200px;
+    margin: 15px 0px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.button-style1:hover {
+    background: #6d1a37;
+    color: #fff !important;
+}
+.headline-icon {
+    font-size: 25px;
+    width: 45px;
+    height: 45px;
+    color: #b7ab9f;
+    border: 2px solid #b7ab9f;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 43px !important;
+}
+.headline-group {
+    line-height: 35px;
+    padding: 50px 0px;
+}
+.headline-group h2 {
+   color: #fff;
+   padding: 30px 0px;
+}
+.headline-group h6 {
+    color: #b7ab9f;
+}
+.headline-group h6:after {
+    content: " ";
+    background: #6d1a37;
+    width: 45px;
+    height: 3px;
+    display: block;
+    margin: 20px auto 0px auto;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {    
+    h2{ font-size: 40px; }
+    .content img {
+        width: 50% !important;
+    }
+}
+@media screen and (max-width: 767px) {
+    h2{ font-size: 40px; }
+}
