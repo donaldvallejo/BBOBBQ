@@ -2354,9 +2354,9 @@ form :-ms-input-placeholder {
   z-index: 999;
     text-indent: -9999px;
     background: url('../../img/bbobbqlogo.png') no-repeat;
-    background-size: 165px 120px;
-    width: 165px;
-    height: 120px;
+    background-size: 155px 110px;
+    width: 155px;
+    height: 110px;
     -webkit-transition: height .5s ease;
     -moz-transition: height .5s ease;
     -o-transition: height .5s ease;
