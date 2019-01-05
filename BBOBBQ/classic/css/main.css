@@ -34,9 +34,10 @@ img.grillPic {
 #map {
   display: none;
 }
-ul.fbIcon {
-  height: 50px !important;
+
+i.icon.icon-facebook3:before {
   width: 50px !important;
+  height: 50px !important;
 }
 /*---------------------------------------------------------------------------
 1. Web Fonts
