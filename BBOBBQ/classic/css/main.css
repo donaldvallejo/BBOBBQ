@@ -35,9 +35,27 @@ img.grillPic {
   display: none;
 }
 
-i.icon.icon-facebook3:before {
-  width: 50px !important;
-  height: 50px !important;
+.menu-shadow:before, .menu-shadow:after {
+  content: none !important;
+}
+
+#navbar-butcher.navbar-collapse.in {
+  max-height: 325px !important;
+}
+
+#contact ul.social li a {
+  font-size: 30px !important;
+} 
+.main-top.sticky {
+  top: -52px !important;
+}
+
+body i.icon.icon-facebook3.A {
+  font-size: 30px !important;
+}
+
+body i.icon.icon-facebook3.B {
+  font-size: 70px !important;
 }
 /*---------------------------------------------------------------------------
 1. Web Fonts
