@@ -34,6 +34,16 @@ img.grillPic {
 #map {
   display: none;
 }
+.tvShows {
+  margin: 0 auto;
+  position: absolute;
+}
+
+.chopped {
+  height: 20px;
+  width: 20px;
+  position: relative;
+}
 
 .menu-shadow:before, .menu-shadow:after {
   content: none !important;
@@ -57,6 +67,7 @@ body i.icon.icon-facebook3.A {
 body i.icon.icon-facebook3.B {
   font-size: 70px !important;
 }
+
 /*---------------------------------------------------------------------------
 1. Web Fonts
 ----------------------------------------------------------------------------*/
